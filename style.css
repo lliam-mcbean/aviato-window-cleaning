@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background: rgba(11, 198, 255, 0.5);
+}
+
+.logo {
+  z-index: 0;
+  position: absolute;
+  width: 155px;
+  height: 62.93px;
+  left: 2vw;
+  top: 5vh;
+}
+
+.nav-container {
+  z-index: 1000;
+  height: 62.93px;
+}
+
+.nav-container a {
+  z-index: 1001;
+  height: 35px;
+  top: 4%;
+  bottom: 8.43%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.services {
+  position: fixed;
+  left: 60%;
+}
+
+.why-us {
+  position: fixed;
+  left: 74%;
+}
+
+.contact {
+  position: fixed;
+  left: 87%;
+}
+
+.background-1 {
+  position: absolute;
+  width: 101vw;
+  height: 101vh;
+  left: -12px;
+  top: -37.56px;
+  background-image: url(img/mitchell-luo-ig0X4Gy278Y-unsplash.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.line-1 {
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 11%;
+  bottom: 0%;
+  height: 2px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.overlay-1 {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  height: 96vh;
+  width: 101vw;
+  background: rgba(128, 128, 128, 0.39);
+  -webkit-animation: slideIn 2s 1s both;
+          animation: slideIn 2s 1s both;
+  -webkit-box-shadow: -20px -20px 20px rgba(128, 128, 128, 0.39);
+          box-shadow: -20px -20px 20px rgba(128, 128, 128, 0.39);
+}
+
+.overlay-active-1 {
+  -webkit-animation: slideOut 1.5s both;
+          animation: slideOut 1.5s both;
+}
+
+.background-2 {
+  z-index: -1;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 101vw;
+  top: 96vh;
+  left: 0;
+  background-image: url(img/image-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-2 h1 {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 3vw;
+}
+
+.background-2 .overlay-2 {
+  position: absolute;
+  top: 0;
+  right: 46%;
+  height: 100vh;
+  width: 101vw;
+  background: rgba(128, 128, 128, 0.39);
+  -webkit-box-shadow: 20px 0px 20px rgba(128, 128, 128, 0.39);
+          box-shadow: 20px 0px 20px rgba(128, 128, 128, 0.39);
+}
+
+.background-2 ul {
+  list-style: none;
+  position: absolute;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  top: 20vh;
+  left: 23vw;
+}
+
+.background-2 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service-1 {
+  font-size: 40px;
+  padding-right: 4vh;
+}
+
+.service-2 {
+  font-size: 40px;
+  padding-right: 4vh;
+}
+
+.service-3 {
+  font-size: 40px;
+  padding-right: 4vh;
+}
+
+.service-4 {
+  font-size: 40px;
+  padding-right: 4vh;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 55%;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 55%;
+  }
+}
+
+@-webkit-keyframes slideOut {
+  0% {
+    left: 55%;
+  }
+  20% {
+    left: 50%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    left: 55%;
+  }
+  20% {
+    left: 50%;
+  }
+  100% {
+    left: 110%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
